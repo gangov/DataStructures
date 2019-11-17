@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3d8c34e-3a2f-41b7-8f2f-3b6ce79ced06" name="Default Changelist" comment="" />
+    <list default="true" id="c3d8c34e-3a2f-41b7-8f2f-3b6ce79ced06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortAlgorithms/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TczxXdz0nuPuZsImZiI0Gff633" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -38,9 +49,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
-    <configuration name="BubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.BubleSort" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.InsertionSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -52,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.InsertionSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.MergeSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -126,10 +137,22 @@
       <updated>1573774418944</updated>
       <workItem from="1573774420459" duration="449000" />
       <workItem from="1573817497651" duration="4929000" />
+      <workItem from="1574029710882" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
