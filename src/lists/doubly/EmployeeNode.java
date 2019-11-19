@@ -1,8 +1,9 @@
-package lists;
+package lists.doubly;
 
 public class EmployeeNode {
     private Employee employee;
     private EmployeeNode next;
+    private EmployeeNode previous;
 
     public EmployeeNode(Employee employee) {
         this.employee = employee;
@@ -10,6 +11,14 @@ public class EmployeeNode {
 
     public Employee getEmployee() {
         return employee;
+    }
+
+    public EmployeeNode getPrevious() {
+        return previous;
+    }
+
+    public void setPrevious(EmployeeNode previous) {
+        this.previous = previous;
     }
 
     public void setEmployee(Employee employee) {

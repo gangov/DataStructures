@@ -1,4 +1,4 @@
-package lists;
+package lists.singly;
 
 public class Employee {
 

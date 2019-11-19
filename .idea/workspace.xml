@@ -2,31 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8c34e-3a2f-41b7-8f2f-3b6ce79ced06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lists/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/EmployeeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/EmployeeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/SinglyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/algorithms/RecursiveInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/algorithms/ReversedMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/doubly/DoublyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/doubly/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/doubly/EmployeeDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/doubly/EmployeeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/BubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/CountingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/RadixSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/Recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/SortAlgorithms/ShellSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/BubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/BubleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortAlgorithms/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/algorithms/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/EmployeeLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/EmployeeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/SinglyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/EmployeeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/EmployeeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/EmployeeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/SinglyList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lists/doubly" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +50,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lists/doubly" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,13 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SinglyList">
-    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.CountingSort" />
+  <component name="RunManager" selected="Application.DoublyList">
+    <configuration name="DoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lists.doubly.DoublyList" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
+          <option name="PATTERN" value="lists.doubly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="SinglyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lists.SinglyList" />
+      <option name="MAIN_CLASS_NAME" value="lists.singly.SinglyList" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lists.*" />
+          <option name="PATTERN" value="lists.singly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublyList" />
         <item itemvalue="Application.SinglyList" />
         <item itemvalue="Application.RecursiveInsertionSort" />
         <item itemvalue="Application.ReversedMergeSort" />
         <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.CountingSort" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +159,7 @@
       <workItem from="1574029710882" duration="1311000" />
       <workItem from="1574071381332" duration="178000" />
       <workItem from="1574106150394" duration="4304000" />
-      <workItem from="1574159286607" duration="5376000" />
+      <workItem from="1574159286607" duration="8250000" />
     </task>
     <servers />
   </component>
