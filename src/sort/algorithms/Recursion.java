@@ -1,4 +1,4 @@
-package SortAlgorithms;
+package sort.algorithms;
 
 public class Recursion {
     // merge sort, quick sort, counting sort and radix sort use recursion. Here we will look at it.

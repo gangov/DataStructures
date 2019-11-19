@@ -1,8 +1,8 @@
-package SortAlgorithms;
+package sort.algorithms;
 
 import java.util.Arrays;
 
-public class MergeSort {
+public class ReversedMergeSort{
     public static void main(String[] args) {
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
 
@@ -25,7 +25,7 @@ public class MergeSort {
     }
 
     private static void merge(int[] input, int start, int mid, int end) {
-        if (input[mid - 1] <= input[mid]) {
+        if (input[mid - 1] >= input[mid]) {
             return;
         }
 
@@ -37,7 +37,7 @@ public class MergeSort {
 
 
         while (i < mid && j < end) {
-            if (input[i] <= input[j]) {
+            if (input[i] >= input[j]) {
                 temp[tempIndex++] = input[i++];
             } else {
                 temp[tempIndex++] = input[j++];

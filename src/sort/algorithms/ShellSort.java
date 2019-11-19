@@ -1,4 +1,4 @@
-package SortAlgorithms;
+package sort.algorithms;
 
 import java.util.Arrays;
 
