@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8c34e-3a2f-41b7-8f2f-3b6ce79ced06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/doubly/DoublyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/doubly/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/doubly/EmployeeDoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/doubly/EmployeeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/jdklinkedlists/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/jdklinkedlists/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/EmployeeLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/EmployeeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/SinglyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lists/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lists/EmployeeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/EmployeeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lists/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/EmployeeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lists/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/SinglyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/doubly/EmployeeDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/lists/doubly/EmployeeDoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/doubly/EmployeeDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/doubly/EmployeeDoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataStructures" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +53,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="queues" />
+      <recent name="stacks" />
+      <recent name="lists.jdklinkedlists" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lists/doubly" />
     </key>
@@ -68,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoublyList">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="DoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lists.doubly.DoublyList" />
       <module name="DataStructures" />
@@ -82,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.RadixSort" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.Main" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.RecursiveInsertionSort" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues.Main" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
+          <option name="PATTERN" value="queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversedMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithms.ReversedMergeSort" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lists.jdklinkedlists.Main" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortAlgorithms.*" />
+          <option name="PATTERN" value="lists.jdklinkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DoublyList" />
         <item itemvalue="Application.SinglyList" />
-        <item itemvalue="Application.RecursiveInsertionSort" />
-        <item itemvalue="Application.ReversedMergeSort" />
-        <item itemvalue="Application.RadixSort" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +165,8 @@
       <workItem from="1574029710882" duration="1311000" />
       <workItem from="1574071381332" duration="178000" />
       <workItem from="1574106150394" duration="4304000" />
-      <workItem from="1574159286607" duration="8250000" />
+      <workItem from="1574159286607" duration="8381000" />
+      <workItem from="1574258522444" duration="6812000" />
     </task>
     <servers />
   </component>
