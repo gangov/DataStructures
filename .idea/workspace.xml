@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d8c34e-3a2f-41b7-8f2f-3b6ce79ced06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lists/jdklinkedlists/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/jdklinkedlists/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtables/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtables/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtables/SimpleHashtTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/lists/doubly/EmployeeDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/lists/doubly/EmployeeDoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lists/doubly/EmployeeDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/doubly/EmployeeDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queues/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queues/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queues/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queues/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stacks/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stacks/ArrayStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stacks/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stacks/LinkedStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stacks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stacks/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/singly/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/singly/EmployeeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queues/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queues/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacks/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacks/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/LinkedStack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hashtables" />
       <recent name="queues" />
       <recent name="stacks" />
       <recent name="lists.jdklinkedlists" />
@@ -132,7 +134,7 @@
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lists.singly.*" />
+          <option name="PATTERN" value="lists.singly.EmployeeNode" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,7 +168,8 @@
       <workItem from="1574071381332" duration="178000" />
       <workItem from="1574106150394" duration="4304000" />
       <workItem from="1574159286607" duration="8381000" />
-      <workItem from="1574258522444" duration="6812000" />
+      <workItem from="1574258522444" duration="7766000" />
+      <workItem from="1574322614659" duration="3488000" />
     </task>
     <servers />
   </component>

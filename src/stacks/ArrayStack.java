@@ -3,35 +3,35 @@ package stacks;
 import java.lang.reflect.Array;
 import java.util.EmptyStackException;
 
-public class ArrayStack {
-    private Employee[] stack;
+public class ArrayStack <T> {
+    private T[] stack;
     private int top;
 
     public ArrayStack(int capacity) {
-        stack = new Employee[capacity];
+        stack = (T[]) new Employee[capacity];
     }
 
-    public void push(Employee employee) {
+    public void push(T t) {
         if (top == stack.length) {
             Employee[] newArray = new Employee[stack.length * 2];
             System.arraycopy(stack, 0, newArray, 0, stack.length);
-            stack = newArray;
+            stack = (T[]) newArray;
         }
 
-        stack[top++] = employee;
+        stack[top++] = (T) t;
     }
 
-    public Employee pop() {
+    public T pop() {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
 
-        Employee employee = stack[--top];
+        T t = stack[--top];
         stack[top] = null;
-        return employee;
+        return t;
     }
 
-    public Employee peek() {
+    public T peek() {
         if (isEmpty()) {
             throw new EmptyStackException();
         }

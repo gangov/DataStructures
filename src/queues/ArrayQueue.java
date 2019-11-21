@@ -1,32 +1,33 @@
 package queues;
 
 import java.util.NoSuchElementException;
+import java.util.Objects;
 
-public class ArrayQueue {
-    private Employee[] queue;
+public class ArrayQueue <T> {
+    private T[] queue;
     private int front;
     private int back;
 
     public ArrayQueue(int capacity) {
-        queue = new Employee[capacity];
+        queue = (T[]) new Object[capacity];
     }
 
-    public void add(Employee employee) {
+    public void add(T t) {
         if (size() == queue.length - 1) {
             int numItems = size();
-            Employee[] newArray = new Employee[2 * queue.length];
+            T[] newArray = (T[]) new Object[2 * queue.length];
 
             System.arraycopy(queue, front, newArray, 0, queue.length - front);
             System.arraycopy(queue, 0, newArray, queue.length - front, back);
 
-            queue = newArray;
+            queue = (T[]) newArray;
 
             front = 0;
             back = numItems;
         }
 
 
-        queue[back] = employee;
+        queue[back] = (T) t;
         if (back < queue.length - 1) {
             back++;
         } else {
@@ -34,12 +35,12 @@ public class ArrayQueue {
         }
     }
 
-    public Employee remove() {
+    public T remove() {
         if (size() == 0) {
             throw new NoSuchElementException();
         }
 
-        Employee employee = queue[front];
+        T t = (T) queue[front];
         queue[front] = null;
         front++;
 
@@ -50,15 +51,15 @@ public class ArrayQueue {
             front = 0;
         }
 
-        return employee;
+        return t;
     }
 
-    public Employee peek() {
+    public T peek() {
         if (size() == 0) {
             throw new NoSuchElementException();
         }
 
-        return queue[front];
+        return (T) queue[front];
     }
 
     public int size() {

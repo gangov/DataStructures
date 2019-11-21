@@ -2,22 +2,22 @@ package stacks;
 
 import java.util.LinkedList;
 
-public class LinkedStack {
-    private LinkedList<Employee> stack;
+public class LinkedStack <T> {
+    private LinkedList<T> stack;
 
     public LinkedStack() {
-        stack = new LinkedList<Employee>();
+        stack = new LinkedList<T>();
     }
 
-    public void push(Employee employee) {
-        stack.push(employee);
+    public void push(T t) {
+        stack.push(t);
     }
 
-    public Employee pop() {
+    public T pop() {
         return stack.pop();
     }
 
-    public Employee peek() {
+    public T peek() {
         return stack.peek();
     }
 
@@ -26,8 +26,8 @@ public class LinkedStack {
     }
 
     public void printStack() {
-        for (Employee employee : stack) {
-            System.out.println(employee);
+        for (T t : stack) {
+            System.out.println(t);
         }
     }
 }
