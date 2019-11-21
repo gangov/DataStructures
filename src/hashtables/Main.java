@@ -1,5 +1,5 @@
 package hashtables;
-//TODO make it generic for the Key; Value is already generic
+
 public class Main {
     public static void main(String[] args) {
         Employee janeJones = new Employee("Jane", "Jones", 123);
